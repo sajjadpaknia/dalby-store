@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background: var(--color-white);
+  background-color: var(--color-white);
+}
+.logo {
+  width: 100px;
+  margin-right: 3rem;
+  flex-shrink: 0;
+}
+.search {
+  max-width: 500px;
+  height: 45px;
+  flex-grow: 1;
+  margin-right: auto;
+  background: var(--color-dark-10);
+  overflow: hidden;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.buttonGroup {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
