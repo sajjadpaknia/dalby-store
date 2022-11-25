@@ -5,16 +5,13 @@
   height: 45px;
   cursor: pointer;
   color: var(--color-dark-70);
-  background: var(--color-dark-5);
-  border-radius: 1.5rem;
-  -webkit-border-radius: 1.5rem;
-  -moz-border-radius: 1.5rem;
-  -ms-border-radius: 1.5rem;
-  -o-border-radius: 1.5rem;
+  background: var(--color-blue-gray-light);
+  border-radius: 1.8rem;
+  -webkit-border-radius: 1.8rem;
+  -moz-border-radius: 1.8rem;
+  -ms-border-radius: 1.8rem;
+  -o-border-radius: 1.8rem;
 }
 .button:hover{
-      background: var(--color-dark-10);
-}
-.button > i {
-  font-size: 2rem;
+      background: var(--color-blue-gray-light-hover);
 }

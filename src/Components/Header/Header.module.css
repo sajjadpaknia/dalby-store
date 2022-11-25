@@ -17,13 +17,13 @@
   height: 45px;
   flex-grow: 1;
   margin-right: auto;
-  background: var(--color-dark-10);
+  background: var(--color-blue-gray-light);
   overflow: hidden;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 .buttonGroup {
   width: 180px;
