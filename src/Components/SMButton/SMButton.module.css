@@ -1,17 +1,21 @@
 .button {
   display: grid;
   place-items: center;
+  position: relative;
   width: 45px;
   height: 45px;
   cursor: pointer;
   color: var(--color-dark-70);
   background: var(--color-blue-gray-light);
-  border-radius: 1.8rem;
-  -webkit-border-radius: 1.8rem;
-  -moz-border-radius: 1.8rem;
-  -ms-border-radius: 1.8rem;
-  -o-border-radius: 1.8rem;
+  font-size: 1.6rem;
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
 }
-.button:hover{
-      background: var(--color-blue-gray-light-hover);
+.button:hover {
+  background: var(--color-blue-gray-light-active);
 }
+
+

@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  height: max-content;
+}
+.title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-dark-20);
+}

@@ -8,14 +8,16 @@
 /* root */
 :root {
   /* color  */
-  --color-primary: #0c65c3;
+  --color-primary: #0066b8;
   --color-secondary: #06c;
   --color-third: #00963c;
   --color-fourth: #ca2166;
   --color-fifth: #f7c32e;
   --color-error: #cc3333;
+  --color-cart-count: #f14038;
   --color-blue-gray-light: #e9eef1;
-  --color-blue-gray-light-hover: #e0e7eb;
+  --color-blue-gray-light-hover: hsl(202, 22%, 95%);
+  --color-blue-gray-light-active: hsl(202, 22%, 90%);
   --color-white: hsl(0, 0%, 100%);
   --color-dark-5: hsl(0, 0%, 95%);
   --color-dark-10: hsl(0, 0%, 90%);
@@ -41,7 +43,7 @@
   --text-primary: #1d1d1f;
   --text-light: #6e6e73;
   /* font */
-  --font-size: 1.6rem;
+  --font-size: 1.4rem;
   /* custom */
 }
 
@@ -49,5 +51,6 @@
 body {
   font-family: "Inter", sans-serif;
   font-size: var(--font-size);
-  padding-inline: 1rem;
+  color: var(--text-primary);
+  padding-inline: 2rem;
 }

@@ -1,0 +1,19 @@
+.badge {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 0.5rem 1.2rem;
+  color: var(--color-white);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 1000px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  -o-border-radius: 1000px;
+}
+.badge > i {
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}

@@ -1,15 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Container from "./Common/Container/Container";
 import Home from "./Pages/Home/Home";
+import Login from "./Pages/Login/Login";
+import SignUp from "./Pages/SignUp/SignUp";
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Container>
+        
           <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="/login" element={<Login />} />
+            <Route path="/" element={<SignUp />} />
           </Routes>
-        </Container>
       </BrowserRouter>
     </>
   );

@@ -1,0 +1,10 @@
+.profile {
+  flex-shrink: 0;
+  background-color: gold;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

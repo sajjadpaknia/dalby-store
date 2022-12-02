@@ -9,8 +9,11 @@
   width: 50px;
   height: 100%;
   cursor: pointer;
-  color: var(--color-dark-30);
   background: transparent;
+  opacity: 0.3;
+}
+.searchIcon:hover {
+  opacity: 0.4;
 }
 
 .search > input {
@@ -19,3 +22,5 @@
   padding: 0 1rem 0 2rem;
   background: transparent;
 }
+
+
