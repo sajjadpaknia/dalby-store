@@ -5,6 +5,7 @@ import SMButton from "../SMButton/SMButton";
 import UserDropdown from "../UserDropdown/UserDropdown";
 import classes from "./Header.module.css";
 import MegaMenu from "../MegaMenu/MegaMenu";
+import axios from "axios";
 export default function Header() {
   // The number of products in the shopping cart
   const [count, setCount] = useState(2);
@@ -30,6 +31,7 @@ export default function Header() {
       setUserDropdown(false);
     }
   });
+
   // Codes
   return (
     <>

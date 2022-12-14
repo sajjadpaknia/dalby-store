@@ -1,0 +1,119 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "sajjadpaknia@gmail.com",
+      "password": "d54uy54h6fT",
+      "name": "sajjad paknia",
+      "id": 1
+    },
+    {
+      "email": "sss@gmail.com",
+      "password": "kjkjkj",
+      "id": 2
+    },
+    {
+      "email": "alinazari@gmail.com",
+      "password": "fskjr5485W",
+      "name": "ali NAZARI",
+      "id": 3
+    },
+    {
+      "email": "jkjkjk@gmail.com",
+      "password": "5g4hr54dDF",
+      "name": "ali rezaei",
+      "id": 4
+    },
+    {
+      "email": "qqqq@gmail.com",
+      "password": "t5df5dR542",
+      "name": "sara azizi",
+      "id": 5
+    },
+    {
+      "email": "ali@gmail.com",
+      "password": "tf564fg564fgJ",
+      "name": "ali azizi",
+      "id": 6
+    },
+    {
+      "email": "sajjadpakani@gmail.com",
+      "password": "gh54f5fg4gfF",
+      "name": "sajjad pk",
+      "id": 7
+    },
+    {
+      "email": "fkfjhfkjhfd@gmail.vom",
+      "password": "54hg5f4g54g54J",
+      "name": "jjj iii",
+      "id": 8
+    },
+    {
+      "email": "sajjad@gmail.com",
+      "password": "5gh4gjf54gfG",
+      "name": "dddd kkkk",
+      "id": 9
+    },
+    {
+      "email": "ffjfhjhf@gmail.com",
+      "password": "6gjjg654g5g4G",
+      "name": "uuu oo",
+      "id": 10
+    },
+    {
+      "email": "dfdfjdhgd@gmail.com",
+      "password": "098u430943i0943iF",
+      "name": "lklk lklk",
+      "id": 11
+    },
+    {
+      "email": "ssss@gmila.com",
+      "password": "5f45454dfdD",
+      "name": "llllk kkk",
+      "id": 12
+    },
+    {
+      "email": "saj876jad@gmail.com",
+      "password": "7r76Jr76r76r",
+      "name": "sajjad vpaknia",
+      "id": 13
+    },
+    {
+      "email": "dkhkdsjhds@gmail.co",
+      "password": "03u0qd90u9dsjF",
+      "name": "kjhkjh eeoiueou",
+      "id": 14
+    },
+    {
+      "email": "sarakoohi@gmail.com",
+      "password": "sara1234TK",
+      "name": "sara koohi",
+      "id": 15
+    },
+    {
+      "email": "alifrootan@gmail.com",
+      "password": "ali43Forootan",
+      "name": "ali forootan",
+      "id": 16
+    },
+    {
+      "email": "sajjadpakia@gmail.com",
+      "password": "ssssjjjjjj999U",
+      "name": "saaa jjjj",
+      "id": 17
+    }
+  ]
+}

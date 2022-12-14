@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+}
+.icon {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100px;
+}
+.messages {
+  width: 100%;
+  padding-top: 2rem;
+  height: max-content;
+}
+/* icon codes  */
+.tick,
+.error,
+.tick div,
+.error div {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.tick,
+.error {
+  width: 100px;
+  height: 100px;
+}
+.tick {
+  background-color: hsla(154, 71%, 44%, 0.3);
+}
+.error {
+  background-color: hsla(4, 73%, 61%, 0.3);
+}
+.tick > div,
+.error > div {
+  width: 80px;
+  height: 80px;
+}
+.tick > div {
+  background-color: hsla(154, 71%, 44%, 0.5);
+}
+.error > div {
+  background-color: hsla(4, 73%, 61%, 0.5);
+}
+.tick > div > div,
+.error > div > div {
+  width: 60px;
+  height: 60px;
+}
+.tick > div > div {
+  background-color: hsla(154, 71%, 44%, 1);
+}
+.error > div > div {
+  background-color: hsla(4, 73%, 61%, 1);
+}
+.tick > div > div > i,
+.error > div > div > i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* messages */
+.boldMessage {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.subMessage {
+  color: var(--color-dark-50);
+}

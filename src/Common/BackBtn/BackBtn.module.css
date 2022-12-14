@@ -1,0 +1,21 @@
+.container > div {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-dark-15);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.container > div:hover {
+  background-color: var(--color-dark-20);
+}
+.container > div > i {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-dark-50);
+}

@@ -1,0 +1,11 @@
+.btnGroup > button {
+  min-width: 90px;
+  height: 35px;
+  margin-left: auto;
+  display: block;
+  border-radius: 4px;
+  color: var(--color-white);
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+}

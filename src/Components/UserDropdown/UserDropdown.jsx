@@ -10,7 +10,7 @@ export default function UserDropdown({ dropdownRef, state }) {
       <ul className={classes.userDropdown__list}>
         {data.map((item) => {
           return (
-            <li className={classes.userDropdown__item}>
+            <li className={classes.userDropdown__item} key={item.id}>
               <Link to={item.to}>
                 <i className={item.icon}></i>
                 <span>{item.title}</span>

@@ -9,6 +9,7 @@
 :root {
   /* color  */
   --color-primary: #0066b8;
+  --color-primary-hover: hsl(207, 100%, 33%);
   --color-secondary: #06c;
   --color-third: #00963c;
   --color-fourth: #ca2166;
@@ -16,6 +17,7 @@
   --color-error: #cc3333;
   --color-cart-count: #f14038;
   --color-blue-gray-light: #e9eef1;
+  --color-blue-gray-bk: #cdd5da;
   --color-blue-gray-light-hover: hsl(202, 22%, 95%);
   --color-blue-gray-light-active: hsl(202, 22%, 90%);
   --color-white: hsl(0, 0%, 100%);
