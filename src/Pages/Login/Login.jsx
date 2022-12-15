@@ -7,7 +7,7 @@ import MessageBox from "../../Common/MessageBox/MessageBox";
 import RegisterCard from "../../Common/RegisterCard/RegisterCard";
 import Spinner from "../../Common/Spinner/Spinner";
 import classes from "./Login.module.css";
-import handleNext from "./validation";
+import validation from "./validation";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -64,7 +64,7 @@ export default function Login() {
 
   // When the "Inputs" are entered correctly and the "Submit" button is pressed, "handleSubmit()" will run.
   // This function is a "async" function.
-  const handleSubmit = () => {
+  const handleSubmit = (loggedUser) => {
     // First, all elements inside the form fail.
     document.getElementById("LoginSubmitBtn").disabled = true;
     document.getElementById("LoginForm").style.pointerEvents = "none";
@@ -76,6 +76,13 @@ export default function Login() {
       messageTitle: "Welcome to our store.",
       messageSubTitle: "We’re happy to have you on board.",
     });
+    localStorage.setItem(
+      "auth-user",
+      JSON.stringify({
+        email: loggedUser.email,
+        name: loggedUser.name,
+      })
+    );
     setTimeLeft(5);
   };
   // JSX
@@ -126,7 +133,7 @@ export default function Login() {
                       className={classes.btns}
                       onClick={(e) => {
                         e.preventDefault();
-                        handleNext(
+                        validation(
                           "email",
                           email,
                           setEmail,
@@ -205,7 +212,7 @@ export default function Login() {
                       onClick={(e) => {
                         e.preventDefault();
                         setBackToHomeBtn(false);
-                        handleNext(
+                        validation(
                           "password",
                           password,
                           setPassword,

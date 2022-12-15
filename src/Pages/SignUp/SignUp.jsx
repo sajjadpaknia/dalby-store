@@ -7,7 +7,7 @@ import MessageBox from "../../Common/MessageBox/MessageBox";
 import RegisterCard from "../../Common/RegisterCard/RegisterCard";
 import Spinner from "../../Common/Spinner/Spinner";
 import classes from "./SignUp.module.css";
-import handleNext from "./validation";
+import validation from "./validation";
 
 export default function SignUp() {
   const navigate = useNavigate();
@@ -98,7 +98,6 @@ export default function SignUp() {
         localStorage.setItem(
           "auth-user",
           JSON.stringify({
-            id: res.data.id,
             email: res.data.email,
             name: res.data.name,
           })
@@ -172,7 +171,7 @@ export default function SignUp() {
                       className={classes.btns}
                       onClick={(e) => {
                         e.preventDefault();
-                        handleNext(
+                        validation(
                           "email",
                           email,
                           setEmail,
@@ -257,7 +256,7 @@ export default function SignUp() {
                       className={classes.btns}
                       onClick={(e) => {
                         e.preventDefault();
-                        handleNext(
+                        validation(
                           "password",
                           password,
                           setPassword,
@@ -326,7 +325,7 @@ export default function SignUp() {
                       onClick={(e) => {
                         e.preventDefault();
                         setBackToHomeBtn(false);
-                        handleNext(
+                        validation(
                           "name",
                           name,
                           setName,
