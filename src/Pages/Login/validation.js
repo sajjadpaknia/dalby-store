@@ -10,12 +10,15 @@ const validation = (
   setSpinner,
   setMessage
 ) => {
-  if (input === "email") {
-    emailValidation(state, setState, setStep, setSpinner, setMessage);
-    return;
-  } else if (input === "password") {
-    passwordValidation(state, setState, handleSubmit);
-    return;
+  switch (input) {
+    case "email":
+      emailValidation(state, setState, setStep, setSpinner, setMessage);
+      break;
+    case "password":
+      passwordValidation(state, setState, handleSubmit);
+      break;
+    default:
+      break;
   }
 };
 // Email validation function
