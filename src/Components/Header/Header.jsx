@@ -12,7 +12,7 @@ export default function Header() {
   // If "megaMenuState" is "true", "Mega menu" will be displayed.
   const [megaMenuState, setMegaMenuState] = useState(false);
   // If "userDropdown" is "true", "User dropdown" will be displayed.
-  const [userDropdown, setUserDropdown] = useState(true);
+  const [userDropdown, setUserDropdown] = useState(false);
   const dropdownRef = useRef();
   const userBtnRef = useRef();
   // When "Mega menu" is displayed, the "Scrolls of Body" must be disabled for "Mega menu" to be displayed correctly.

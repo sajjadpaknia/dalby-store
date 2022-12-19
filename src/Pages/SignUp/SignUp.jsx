@@ -72,6 +72,7 @@ export default function SignUp() {
   // When the "Inputs" are entered correctly and the "Submit" button is pressed, "handleSubmit()" will run.
   // This function is a "async" function.
   const handleSubmit = async () => {
+    setBackToHomeBtn(false);
     // First, all elements inside the form fail.
     document.getElementById("signUpSubmitBtn").disabled = true;
     document.getElementById("signUpForm").style.pointerEvents = "none";
@@ -115,7 +116,7 @@ export default function SignUp() {
         });
       });
   };
-  // JSX 
+  // JSX
   return (
     <RegisterCard spinner={spinner} backToHome={backToHomeBtn}>
       {!message.show ? (
@@ -324,7 +325,7 @@ export default function SignUp() {
                       className={classes.btns}
                       onClick={(e) => {
                         e.preventDefault();
-                        setBackToHomeBtn(false);
+
                         validation(
                           "name",
                           name,
